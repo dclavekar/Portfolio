@@ -12,7 +12,7 @@ import {
   DiPython,
   DiGit,
   DiMysql,
-  DiEclipse,
+  
   DiSqllite,
   DiJqueryLogo
 } from "react-icons/di";
