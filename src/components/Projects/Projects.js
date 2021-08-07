@@ -8,7 +8,7 @@ import cryptocurrency from "../../Assets/Projects/cryptocurrency.png";
 import facultyfinder from "../../Assets/Projects/facultyfinder.png";
 import credenzlive from "../../Assets/Projects/credenzlive.png";
 import menstrualhygiene from "../../Assets/Projects/menstrualhygiene.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 
 function Projects() {
   return (
