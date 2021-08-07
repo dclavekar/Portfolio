@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import colabmusic from "../../Assets/Projects/colabmusic.png";
+import cryptocurrency from "../../Assets/Projects/cryptocurrency.png";
+import facultyfinder from "../../Assets/Projects/facultyfinder.png";
+import credenzlive from "../../Assets/Projects/credenzlive.png";
+import menstrualhygiene from "../../Assets/Projects/menstrualhygiene.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -16,7 +16,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -24,64 +24,71 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={credenzlive}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Clash Web Portal"
+              description="Web application for problem-solving quiz platform for annual tech-fest Credenz by IEEE with features like lifelines and varying marking schemes.
+              Major contribution in backend development and database management using technologies like Python, Django, SQLite, HTML, CSS, JavaScript, jQuery, AJAX."
+              link="https://github.com/dclavekar/Credenz-Clash-Portal"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={colabmusic}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Collaborative Music Player"
+              description="Yet to build"
+              link="https://github.com/dclavekar/Collaborative-Music-Player"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={menstrualhygiene}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Menstrual Hygiene Awareness Fundraiser"
+              description="A full-stack web application for spreading awareness about menstrual hygiene and raising funds for supply of sanitary products. Important features like
+              payment gateway integration and custom email delivery are implemented with a responsive frontend.
+              Tech stack used: Django, Python, HTML, CSS, Bootstrap, Heroku.
+              Project can be viewed on GitHub."
+              
+              link="https://donatebydcl.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={cryptocurrency}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Cryptocurrency CommonCoin"
+              description="In the era of cryptocurrency, CommonCoin is a new cryptocurrency which helps students in college to make use of cashless modes of transfer and get an experience in handling cryptocurrency transactions. Tech stack used is HTML, CSS, Bootstrap, Python, Flask, MySQL, Blockchain.
+              "
+              link="https://github.com/dclavekar/CommonCoin"
             />
           </Col>
 
+          
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={facultyfinder}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Faculty Finder"
+              description="This is a PC based application developed in Python. It helps students find the location of a Faculty according to faculty's timetable. The Faculty is provided with a secure login through which different functionalities can be accessed. It uses Python modules like xlrd, uic, PyQt5. Tools like Microsoft Excel, QT designer etc are used in the development process."
               link="https://github.com/soumyajit4419/AI_For_Social_Good"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="ValEasy"
+              description="yet to deploy"
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
