@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// 
+// // lookout for prepend-http in package-lock.json if any prob occcurs
 
 import ScrollToTop from "./components/ScrollToTop";
 
