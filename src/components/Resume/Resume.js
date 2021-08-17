@@ -76,12 +76,12 @@ function Resume() {
             <Resumecontent
               title="Sarosh Junior College, Aurangabad"
               date="HSC (2017 - 2019)"
-              content={["Precentage: 84.0%"]}
+              content={["Percentage: 84.0%"]}
             />
             <Resumecontent
               title="S.B.O.A. Public School, Aurangabad"
               date="SSC (2017)"
-              content={["Precentage: 99.8%"]}
+              content={["Percentage: 99.8%","Asst. Vice-Captain (2014-15)","School topper in SSC Boards","Among the top 2 scorers from the class of 60 students, for every academic year since 2005"]}
             />
             {/* <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
