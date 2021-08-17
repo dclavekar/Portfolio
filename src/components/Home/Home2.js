@@ -108,7 +108,7 @@ function Home2() {
               </li> */}
                <li className="social-icons">
                 <a
-                  href="dclavekar@gmail.com"
+                  href="mailto: dclavekar@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
