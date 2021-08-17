@@ -11,8 +11,8 @@ function AboutCard() {
             Hi! I am <span className="purple">Dhanashree Lavekar </span>
             from <span className="purple"> Pune, India.</span>
             {/* <br />I am an Information Technology Engineering undergraduate from SCTR's Pune Institute of Computer Technology. */}
-            <br />Working my way through Hustle and procastination, I have succeeded in acquiring various skills. I am looking forward to learning everything that comes in my way and make effective use out of it.
-            <br />I am a quick learner and a curious person. You will find me asking questions everytime you find me ignorant about something. 
+            <br />Working my way through hustle and procastination, I have succeeded in acquiring various skills. I am looking forward to learning everything that comes in my way and make effective use out of it.
+            <br />I am a quick learner and a curious person.// You will find me asking questions everytime you find me ignorant about something. 
             <br />
             {/* Apart from coding, some other activities that I love to do! */}
           </p>
