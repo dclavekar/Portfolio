@@ -43,7 +43,7 @@ function Resume() {
             <h3 className="resume-title">Internship</h3>
             <Resumecontent
               title="Web development and Design Intern"
-              date="July 2021 - August 2021"
+              date="The Sparks Foundation | July 2021 - August 2021"
               content={[
                 "Developed a fundraiser full-stack web application for spreading awareness about menstrual hygiene with important features like payment gateway integration and custom email delivery.",
                 
