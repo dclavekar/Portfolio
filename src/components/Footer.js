@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
+  AiFillMail
   
   AiFillInstagram,
 } from "react-icons/ai";
@@ -31,16 +32,16 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
+            {<li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="mailto:dclavekar@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiFillMail />
               </a>
-            </li> */}
+            </li>}
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/dclavekar/"
