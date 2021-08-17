@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  
+  AiOutlineMail,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -31,14 +31,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className=" home-about-body">
-              I am a Third year undergraduate from Pune Institute of Computer
+              I am a third year undergraduate from Pune Institute of Computer
               Technology pursuing Information technology Engineering.
               <br />
               <br />I am a self taught{" "}
               <i>
-                <b className="purple"> Full stack Web developer </b>
+                <b className="purple"> full stack web developer </b>
               </i>{" "}
-               who is cultivating interest in{" "}
+               , who is cultivating interest in{" "}
               <i>
                 <b className="purple"> Competetive programming</b>
               </i>
@@ -106,6 +106,16 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li> */}
+               <li className="social-icons">
+                <a
+                  href="dclavekar@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/dclavekar/"
