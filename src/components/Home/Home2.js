@@ -38,13 +38,13 @@ function Home2() {
               <i>
                 <b className="purple"> full stack web developer </b>
               </i>{" "}
-               , who is cultivating interest in{" "}
+               , who is interested in{" "}
               <i>
                 <b className="purple"> Competetive programming</b>
               </i>
-              . I am also enthusiastic to learn{" "}
+              . I am also enthusiastic to learn about {" "}
               <i>
-                <b className="purple"> Data Science </b>
+                <b className="purple"> Artificial Intelligence </b>
               </i>{" "}
               and dive into the ocean of{" "}
               <i>
