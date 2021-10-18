@@ -33,15 +33,15 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={colabmusic}
-              isBlog={false}
-              title="Collaborative Music Player"
-              description="A full-stack web application using a third-party API (Spotify) for developing a collaborative music-playing system. Creates rooms for people to join and control music playing on Spotify. Tech Stack used: Django, Django REST Framework, React, Material-UI, Babel, Heroku"
-              link="https://github.com/dclavekar/Collaborative-Music-Player"
-            />
-          </Col>
+//           <Col md={4} className="project-card">
+//             <ProjectCard
+//               imgPath={colabmusic}
+//               isBlog={false}
+//               title="Collaborative Music Player"
+//               description="A full-stack web application using a third-party API (Spotify) for developing a collaborative music-playing system. Creates rooms for people to join and control music playing on Spotify. Tech Stack used: Django, Django REST Framework, React, Material-UI, Babel, Heroku"
+//               link="https://github.com/dclavekar/Collaborative-Music-Player"
+//             />
+//           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
