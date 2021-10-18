@@ -9,7 +9,7 @@ function Type() {
           "Student",
           "Full stack web developer",
           "Competitive programmer",
-          "Data Science Enthusiast"
+          
           
         ],
         autoStart: true,
