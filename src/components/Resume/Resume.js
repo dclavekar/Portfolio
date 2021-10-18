@@ -71,7 +71,7 @@ function Resume() {
             <Resumecontent
               title="SCTR’s Pune Institute of Computer Technology, Pune"
               date="B.E. Information Technology (2019 - 2023)"
-              content={[`CGPA: 9.34 (Till 2nd Sem)`,`SGPA: 9.91 (3rd Sem)`]}
+              content={[`CGPA: 9.53 (Till 4th Sem)`,`SGPA: 9.035, 9.64, 9.91, 9.55`]}
             />
             <Resumecontent
               title="Sarosh Junior College, Aurangabad"
